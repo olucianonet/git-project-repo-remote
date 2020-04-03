@@ -9,9 +9,11 @@
 [05. Manipulando as versões]()
 [06. Gerando entregas]()
 
-1. O que é Git?
+## 1. O que é Git?
 
 É um sistema de controle de versões.
+
+### 1.1. Instalação
 
 Para instalar em um sistema Linux, baseado no Debian, execute:
 
@@ -21,11 +23,16 @@ $ sudo apt install git-all
 
 [Outras distros](https://git-scm.com/download/linux)
 
+### 1.2. Criar repositórios
+
 Para criar um repositório, execute:
 
 ```
 $ git init
 ```
+dentro do diretório desejado.
+
+### 1.3. Verificando o status 
 
 Nesse momento, já é possível executar o comando:
 
