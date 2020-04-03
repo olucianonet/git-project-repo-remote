@@ -8,4 +8,3 @@
 [04. Trabalhando em equipe]()
 [05. Manipulando as versões]()
 [06. Gerando entregas]()
-
