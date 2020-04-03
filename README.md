@@ -2,9 +2,9 @@
 
 ## Índice
 
-[01. O que é Git?]()
-[02. Iniciando os trabalhos]()
-[03. Compartilhando o trabalho]()
-[04. Trabalhando em equipe]()
-[05. Manipulando as versões]()
-[06. Gerando entregas]()
+1. O que é Git?
+2. Iniciando os trabalhos
+3. Compartilhando o trabalho
+4. Trabalhando em equipe
+5. Manipulando as versões
+6. Gerando entregas
