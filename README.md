@@ -20,9 +20,6 @@ Para instalar em um sistema Linux, baseado no Debian, execute:
 ```
 $ sudo apt install git-all
 ```
-
-[Outras distros](https://git-scm.com/download/linux)
-
 ### 1.2. Criar repositórios
 
 Para criar um repositório, execute:
