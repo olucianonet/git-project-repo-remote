@@ -124,3 +124,22 @@ Para visualizar as alterações do `stash`, execute:
 $ git stash list
 stash@{0}: WIP on capitulo-05: 2842336 Revert "Adicionado capitulo 05, v. 3"
 ```
+
+### 5.5. Recuperando conteúdo do stash
+
+Para recuperar um conteúdo do stash, execute:
+
+```
+$ git stash <numero do stash>
+```
+
+Fazendo isso, o stash será aplicado, mas também continuará na lista de `stash` disponível.
+
+Para aplicar e excluir da lista de `stash`, execute:
+
+```
+$ git stash pop
+```
+
+Esse comando removerá o primeiro item do `stash` e aplicará no branch atual.
+
