@@ -61,6 +61,54 @@ Após incluir um arquivo no monitoramento, salve suas alterações:
 $ git commit -m 'Mensagem de commit'
 ```
 
+
+## 5. Desfazendo coisas
+
+### 5.1. Antes do `stage`
+
+Quando efetuamos alguma alteração em um arquivo, ao executar o `status`,
+recebemos a seguinte mensagem:
+
+```
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+Nesse estado, é possível desfazer a alteração apensar executando:
+
+```
+$ git checkout -- README.md
+```
+
+### 5.2. NO `stage`
+
+Quando adicionamos uma alteração no `stage` e precisamos desfazer, executamos:
+
+```
+$ git reset HEAD README.md
+$ git checkout -- README.md
+```
+
+### 5.3. No commit
+
+Para desfazer uma alteração após o `commit`, execute:
+
+```
+$ git lg
+```
+
+Para recuperar o `hash` do último `commit` realizado. E após isso execute:
+
+```
+$ git rever 689cb5c
+```
+
+Será adicionado um novo `commit` com o `revert` executado e as alterações 
+serão desfeitas.
+
 ### 5.4. Salvando alterações temporariamente
 
 Para guardar temporariamente alterações que ainda não foram enviadas para o 
