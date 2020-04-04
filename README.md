@@ -60,3 +60,19 @@ Após incluir um arquivo no monitoramento, salve suas alterações:
 ```
 $ git commit -m 'Mensagem de commit'
 ```
+
+### 5.4. Salvando alterações temporariamente
+
+Para guardar temporariamente alterações que ainda não foram enviadas para o 
+`stage`, execute:
+
+```
+$ git stash
+```
+
+Para visualizar as alterações do `stash`, execute:
+
+```
+$ git stash list
+stash@{0}: WIP on capitulo-05: 2842336 Revert "Adicionado capitulo 05, v. 3"
+```
