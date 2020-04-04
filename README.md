@@ -8,7 +8,7 @@
 4. Trabalhando em equipe
 5. Manipulando as versões
 6. Gerando entregas
-7. Refências
+7. Referências
 
 ## 1. O que é Git?
 
@@ -21,6 +21,7 @@ Para instalar em um sistema Linux, baseado no Debian, execute:
 ```
 $ sudo apt install git-all
 ```
+
 ### 1.2. Criar repositórios
 
 Para criar um repositório, execute:
@@ -28,6 +29,7 @@ Para criar um repositório, execute:
 ```
 $ git init
 ```
+
 dentro do diretório desejado.
 
 ### 1.3. Verificando o status 
@@ -39,3 +41,22 @@ $ git status
 ```
 
 Esse comando, exibe o estado atual do seu repositório.
+
+## 2. Iniciando os trabalhos
+
+### 2.1. Monitorando arquivos
+
+Para começar a monitor uma arquivo, execute:
+
+```
+$ git add <nome-do-arquivo> # arquivo específico
+$ git add . # todos os arquivos de um diretório
+```
+
+### 2.2. Salvando alterações
+
+Após incluir um arquivo no monitoramento, salve suas alterações:
+
+```
+$ git commit -m 'Mensagem de commit'
+```
