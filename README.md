@@ -61,6 +61,48 @@ Após incluir um arquivo no monitoramento, salve suas alterações:
 $ git commit -m 'Mensagem de commit'
 ```
 
+## 3. Compartilhando o trabalho
+
+### 3.1. Repositórios remotos
+
+Para criar um servidor remoto, execute:
+
+```
+$ git init --bare
+```
+
+Após esse procedimento, volte ao seu projeto e adicione o repositório remoto 
+como repositório destino, com o comando:
+
+```
+git remote add <nome-repo> <caminho>
+```
+
+Para visualizar os repositórios remotos de um projeto, execute:
+
+```
+$ git remote -v
+```
+
+### 3.2. Sincronizando dados
+
+Com o repositório remoto configurado, já é possível enviar suas alterações para
+lá. Para isso, após o `commit`, execute:
+
+```
+$ git pull local master
+```
+
+### 3.3. Compartilhando as alterações
+
+Com o envio das alterações para o reposítório central, outros usuários poderão
+fazer uma cópia do projeto. Para isso, execute:
+
+```
+$ git clone <local-do-repositorio-central> <nome-do-projeto>
+```
+
+Com esse comando será criado um diretório com o projeto.
 
 ## 5. Desfazendo coisas
 
