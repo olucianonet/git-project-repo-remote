@@ -8,6 +8,7 @@
 4. Trabalhando em equipe
 5. Manipulando as versões
 6. Gerando entregas
+7. Refências
 
 ## 1. O que é Git?
 
