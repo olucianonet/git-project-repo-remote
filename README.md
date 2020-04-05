@@ -46,7 +46,7 @@ Esse comando, exibe o estado atual do seu repositório.
 
 ### 2.1. Monitorando arquivos
 
-Para começar a monitor uma arquivo, execute:
+Para começar a monitorar uma arquivo, execute:
 
 ```
 $ git add <nome-do-arquivo> # arquivo específico
