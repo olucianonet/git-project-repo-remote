@@ -125,7 +125,7 @@ Nesse estado, é possível desfazer a alteração apensar executando:
 $ git checkout -- README.md
 ```
 
-### 5.2. NO `stage`
+### 5.2. No `stage`
 
 Quando adicionamos uma alteração no `stage` e precisamos desfazer, executamos:
 
@@ -184,4 +184,3 @@ $ git stash pop
 ```
 
 Esse comando removerá o primeiro item do `stash` e aplicará no branch atual.
-
