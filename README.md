@@ -42,6 +42,12 @@ $ git status
 
 Esse comando, exibe o estado atual do seu repositório.
 
+Para exibir todos os arquivos que estão sendo `trackeados`:
+
+```
+git ls-tree -r <nome-do-branch> --name-only
+```
+
 ## 2. Iniciando os trabalhos
 
 ### 2.1. Monitorando arquivos
